@@ -17,7 +17,7 @@ SCENARIO("8mb", "[8mb]")
     {
       if(s1.surname!=s2.surname)
       {
-        x=false;
+        x=true;
         break; 
       }
     }
@@ -40,7 +40,7 @@ SCENARIO("15mb", "[15mb]")
     {
       if(s1.surname!=s2.surname)
       {
-        x=false;
+        x=true;
         break;
       }
     }
@@ -63,7 +63,7 @@ SCENARIO("32mb", "[32mb]")
     {
       if(s1.surname!=s2.surname)
       {
-        x=false;
+        x=true;
         break;
       }
     }
