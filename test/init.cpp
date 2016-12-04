@@ -18,7 +18,7 @@ SCENARIO("8mb", "[8mb]")
       if(s1.name!=s2.name)
       {
         x=false;
-        break;
+        break; 
       }
     }
     else break;
