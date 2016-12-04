@@ -15,7 +15,7 @@ SCENARIO("8mb", "[8mb]")
   {
     if((f1>>s1)&&(f2>>s2))
     {
-      if(s1.name!=s2.name)
+      if(s1.surname!=s2.surname)
       {
         x=false;
         break; 
@@ -38,7 +38,7 @@ SCENARIO("15mb", "[15mb]")
   {
     if((f1>>s1)&&(f2>>s2))
     {
-      if(s1.name!=s2.name)
+      if(s1.surname!=s2.surname)
       {
         x=false;
         break;
@@ -61,7 +61,7 @@ SCENARIO("32mb", "[32mb]")
   {
     if((f1>>s1)&&(f2>>s2))
     {
-      if(s1.name!=s2.name)
+      if(s1.surname!=s2.surname)
       {
         x=false;
         break;
