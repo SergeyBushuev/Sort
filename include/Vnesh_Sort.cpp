@@ -30,8 +30,7 @@ bool operator >(const line& s1, const line& s2)
 
 ostream & operator<<(ostream & output, line const & str)
 {
-	output << str.
-		<< " " << str.name << " " << str.year;
+	output << str.surname<< " " << str.name << " " << str.year;
 	return output;
 }
 
