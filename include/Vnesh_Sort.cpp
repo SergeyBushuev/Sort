@@ -20,17 +20,18 @@ struct line
 
 bool operator < (const line& s1, const line& s2)
 {
-	return (s1.surname < s2.surname);
+	return (s1.name < s2.name);
 }
 
 bool operator >(const line& s1, const line& s2)
 {
-	return (s1.surname > s2.surname);
+	return (s1.name > s2.name);
 }
 
 ostream & operator<<(ostream & output, line const & str)
 {
-	output << str.surname << " " << str.name << " " << str.year;
+	output << str.
+		<< " " << str.name << " " << str.year;
 	return output;
 }
 
@@ -42,7 +43,7 @@ istream & operator>>(istream & input, line & str)
 
 bool operator != (line s, string str)
 {
-	return (s.surname != str);
+	return (s.name != str);
 }
 
 struct s_i
